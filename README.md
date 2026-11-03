@@ -1,13 +1,17 @@
 # Dylan's apps (Windows installers)
 
-Private downloads for friends. Pick an app, open its release page, download the `.exe` and run it.
+Downloads for friends. Pick an app, open its release page, download the `.exe` and run it.
 Everything here is for **Windows 10/11, 64-bit**.
 
 | App | What it does | Download | Admin prompt? |
 |---|---|---|---|
-| **LiteRGB 1.4.0** | Lightweight RGB control that replaces Razer Synapse / Corsair iCUE / Armoury Crate lighting | [LiteRGB release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/litergb-v1.4.0) | No |
-| **ClearQueue 3.1.0** | Network tool: Upload Guard (stops uploads from lagging your games), speed test, NAT & ports, VPN check | [ClearQueue release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/clearqueue-v3.1.0) | Yes (installs a background service) |
+| **LiteRGB 1.5.0** | Lightweight RGB control that replaces Razer Synapse / Corsair iCUE / Armoury Crate lighting | [LiteRGB release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/litergb-v1.5.0) | No |
+| **ClearQueue 3.2.0** | Network tool: Upload Guard (stops uploads from lagging your games), speed test, NAT & ports, VPN check | [ClearQueue release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/clearqueue-v3.2.0) | Yes (installs a background service) |
 | **Social Hub 1.0.0** | Self-hosted chat with voice, video and screen share for our group | [Social Hub release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/socialhub-v1.0.0) | No |
+
+## Updates
+
+LiteRGB 1.5.0+ and ClearQueue 3.2.0+ have a **Check for updates** button that downloads the newest version from this page, checks its SHA-256 and installs it. No GitHub account needed.
 
 ## "Windows protected your PC"
 
@@ -20,15 +24,15 @@ Every installer was scanned with Microsoft Defender before upload (no threats fo
 `SHA256SUMS` file. To check you got the exact same file, open PowerShell in your Downloads folder and run:
 
 ```powershell
-Get-FileHash .\LiteRGB-Setup-1.4.0-x64.exe
+Get-FileHash .\LiteRGB-Setup-1.5.0-x64.exe
 ```
 
 The `Hash` it prints must match the one on the release page (upper or lower case doesn't matter).
 
 | File | SHA-256 |
 |---|---|
-| LiteRGB-Setup-1.4.0-x64.exe | `85d24ae55e646ea8ee5f92cb0b0bd2d5ec4e590b80133dca765f96888ab833bf` |
-| ClearQueue-Setup-3.1.0-x64.exe | `85ccab067ba9f2988ee07520de5e8c845b7836a9d973f213f206062085c89e92` |
+| LiteRGB-Setup-1.5.0-x64.exe | `9d594826b8dcd18b1b2af6a5f84126c92b600e5903752fecb5cc168215ce24a6` |
+| ClearQueue-Setup-3.2.0-x64.exe | `de85cb658ae9baa69c7e9701aec9fcec5498b5b5d4bb76bb6360f658798ba578` |
 | SocialHub-Setup-1.0.0.exe | `8200efd0697f26584c4b8a01c4195f48152810826d9462e344790374a3cee0bc` |
 
 ## Notes per app
