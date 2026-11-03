@@ -5,7 +5,7 @@ Everything here is for **Windows 10/11, 64-bit**.
 
 | App | What it does | Download | Admin prompt? |
 |---|---|---|---|
-| **LiteRGB 1.6.0** | Lightweight RGB control for most brands (replaces Synapse / iCUE / Armoury Crate lighting), nothing else to install | [LiteRGB release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/litergb-v1.6.0) | No |
+| **LiteRGB 1.7.0** | Lightweight RGB control for most brands (replaces Synapse / iCUE / Armoury Crate lighting), nothing else to install | [LiteRGB release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/litergb-v1.7.0) | No |
 | **ClearQueue 3.2.0** | Network tool: Upload Guard (stops uploads from lagging your games), speed test, NAT & ports, VPN check | [ClearQueue release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/clearqueue-v3.2.0) | Yes (installs a background service) |
 | **Social Hub 2.3.0** | End-to-end encrypted chat with voice, video and screen share for our group | [Social Hub release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/socialhub-v2.3.0) | No |
 
@@ -24,14 +24,14 @@ Every installer was scanned with Microsoft Defender before upload (no threats fo
 `SHA256SUMS` file. To check you got the exact same file, open PowerShell in your Downloads folder and run:
 
 ```powershell
-Get-FileHash .\LiteRGB-Setup-1.6.0-x64.exe
+Get-FileHash .\LiteRGB-Setup-1.7.0-x64.exe
 ```
 
 The `Hash` it prints must match the one on the release page (upper or lower case doesn't matter).
 
 | File | SHA-256 |
 |---|---|
-| LiteRGB-Setup-1.6.0-x64.exe | `26505dc4fac34ef9925a2e8295ba2af79327b42cc78d7e864b45479cdb28f505` |
+| LiteRGB-Setup-1.7.0-x64.exe | `b63b39ace76e9aba8007bcbb9a9c4f04457b6527e6c5646c6f0a48367b4f51ef` |
 | ClearQueue-Setup-3.2.0-x64.exe | `de85cb658ae9baa69c7e9701aec9fcec5498b5b5d4bb76bb6360f658798ba578` |
 | SocialHub-Setup-2.3.0.exe | `19036585fd9536586c9c6d52a9f2f80a138a601e8c894d0f732e11f021e6a887` |
 
