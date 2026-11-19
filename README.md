@@ -8,6 +8,7 @@ Everything here is for **Windows 10/11, 64-bit**.
 | **LiteRGB 1.7.0** | Lightweight RGB control for most brands (replaces Synapse / iCUE / Armoury Crate lighting), nothing else to install | [LiteRGB release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/litergb-v1.7.0) | No |
 | **ClearQueue 3.2.0** | Network tool: Upload Guard (stops uploads from lagging your games), speed test, NAT & ports, VPN check | [ClearQueue release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/clearqueue-v3.2.0) | Yes (installs a background service) |
 | **Social Hub 2.3.0** | End-to-end encrypted chat with voice, video and screen share for our group | [Social Hub release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/socialhub-v2.3.0) | No |
+| **ThermalWarden 1.0.0** | Hardware monitor with overlay, GPU fan curve and safe GPU undervolting (AMD RX 7000+), game profiles | [ThermalWarden release](https://github.com/slidlawyer5-source/app-downloads/releases/tag/thermalwarden-v1.0.0) | No (zip, no installer) |
 
 ## Updates
 
@@ -34,6 +35,7 @@ The `Hash` it prints must match the one on the release page (upper or lower case
 | LiteRGB-Setup-1.7.0-x64.exe | `b63b39ace76e9aba8007bcbb9a9c4f04457b6527e6c5646c6f0a48367b4f51ef` |
 | ClearQueue-Setup-3.2.0-x64.exe | `de85cb658ae9baa69c7e9701aec9fcec5498b5b5d4bb76bb6360f658798ba578` |
 | SocialHub-Setup-2.3.0.exe | `19036585fd9536586c9c6d52a9f2f80a138a601e8c894d0f732e11f021e6a887` |
+| ThermalWarden-1.0.0-win-x64.zip | `d4cb6f18c20e5b4ba20d5f244ffe237313e83836d93130d4084d2bbcc71ddcdd` |
 
 ## Notes per app
 
@@ -44,5 +46,6 @@ The `Hash` it prints must match the one on the release page (upper or lower case
   Windows Settings > Apps so it can undo its network changes.
 - **Social Hub:** everyone installs the app, then opens the invite link Dylan sends and picks a name and PIN.
   Calls go through our own relay, so nobody sees anyone's IP. Old 1.0.0 installs: run the new installer once.
+- **ThermalWarden:** extract the zip to a folder you keep and run `ThermalWarden.exe`. Hardware control stays off until you turn it on. Read SAFETY.md first. 1.0.0+ has **Check for updates** in Settings.
 
 Uninstall any app from **Windows Settings > Apps**.
